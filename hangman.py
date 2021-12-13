@@ -82,7 +82,7 @@ def hangman():
         if is_in_the_word == False:
             lifes-=1
         
-        #WIN
+        #WIN CONDITION 
         if word_to_show == word_to_guess:
             gameplay_result="win"
             break
@@ -90,6 +90,7 @@ def hangman():
     return gameplay_result, word
 
 def run():
+    # GAME HISTORY VARIABLES
     games_w=0
     games_l=0
 
@@ -97,6 +98,8 @@ def run():
     play=input(hangman_resources.menu)
     if play == "" or len(play) > 0:
         result=hangman()
+
+    # PLAY AGAIN
     while True:
         if result[0] == "win":
             games_w+=1
