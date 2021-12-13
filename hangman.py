@@ -107,7 +107,7 @@ def run():
                 system('cls')
                 print(f"Partidas ganadas: {games_w} | Partidas perdidas {games_l}"
                 f"\n{hangman_resources.win} \n\nGanaste, la palabra correcta fue: {result[1]}")
-                replay = input("Deseas volver a jugar? y/n: ")
+                replay = input("Deseas volver a jugar? y/n: ").lower()
                 if replay == "y" or replay == "n":
                     break
             if replay == "y":
@@ -120,7 +120,7 @@ def run():
                 system('cls')
                 print(f"Partidas ganadas: {games_w} | Partidas perdidas {games_l}"
                 f"\n{hangman_resources.hm_status[6]} \n\nPerdíste, la palabra correcta era: {result[1]}")
-                replay = input("Deseas volver a jugar? y/n: ")
+                replay = input("Deseas volver a jugar? y/n: ").lower()
                 if replay == "y" or replay == "n":
                     break
             if replay == "y":
