@@ -60,7 +60,7 @@ hm_status=(
 
 
 menu="""
-================= WELCOME TO ==================
+===============================================
  _                                             
 | |                                            
 | |__   __ _ _ __   __ _ _ __ ___   __ _ _ __  
@@ -70,8 +70,11 @@ menu="""
                     __/ |                      
                    |___/                       
                   
+===============================================
+
+      BIENVENIDO AL JUEGO DEL AHORCADO
       
-            PRESS ENTER TO START: 
+         PRESIONA ENTER PARA EMPEZAR: 
 
 """
 
